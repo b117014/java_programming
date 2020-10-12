@@ -30,7 +30,6 @@ public class SubsetSum {
             return false;
         }
         String key = n+"|"+sum;
-        System.out.print(key);
             if(!dp.containsKey(key)){
                
                 if(arr[n-1]<=sum){
