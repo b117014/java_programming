@@ -34,10 +34,9 @@ public class EqualSumPartion {
 
         }
         if(sum%2!=0){
-            System.out.println(1);
+            System.out.println(false);
         }else{
             sum = sum/2;
-            System.out.println(sum);
             System.out.println(equalSum(arr, n, sum, dp));
         }
     }
